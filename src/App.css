@@ -76,3 +76,38 @@
         background-color: #7963F0 !important;
     }
 }
+
+
+.card{
+    height: 400px !important;
+
+    & .btn-1{
+        background-color: #ece8ff ;
+        border: none;
+        color: #6650e7;
+        font-weight: bold;
+        padding: 10px 20px;
+
+        &:hover{
+            background-color: #6650e7;
+        }&:active{
+            background-color: #7963F0;
+        }
+    }
+    & .btn-2{
+        background-color: #F5F6F7 ;
+        border: none;
+        color: #9A9EA7;
+        font-weight: bold;
+        padding: 10px 20px;
+
+        &:hover{
+            background-color: #e6e6e6;
+            color: #9A9EA7;
+        }
+        &:active{
+            background-color:#F5F6F7 !important;
+            color: #9A9EA7 !important;
+        }
+    }
+}
