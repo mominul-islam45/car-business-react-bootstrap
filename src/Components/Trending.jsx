@@ -36,7 +36,7 @@ function Trending() {
     <>
         <div className=' container py-3'>
             <h3 className='text-center fs-2 fw-bold pb-3'>Trending near you</h3>
-            <div className='d-flex flex-column flex-md-row justify-content-center align-items-stretch gap-4'>
+            <div className='d-flex flex-column flex-md-row justify-content-center align-items-stretch gap-5 gap-md-4'>
                 {trending.map(({img, title, miles, transmission, cylinder, price, seller})=>(
                     <Card className=' border-0 card'>
                         <Card.Img src={img} className=' rounded-4'/>
