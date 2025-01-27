@@ -57,6 +57,7 @@
 
 .filter-label{
     color: #9A9EA7;
+    padding-left: 10px;
 }
 .filter-select{
     outline: none;

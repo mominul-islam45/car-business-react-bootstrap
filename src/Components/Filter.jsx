@@ -75,13 +75,13 @@ function Filter() {
     <>
       <div className=" container pb-5">
         <h3 className=" text-center text-md-start py-5 fw-bold fs-2">Which vehicles you are looking for? </h3>
-        <div className="filter d-flex flex-column flex-md-row gap-4 gap-md-5 justify-content-around flex-grow-0  px-2 py-3 shadow rounded-4">
+        <div className="filter d-flex flex-column flex-lg-row gap-4 gap-md-5 justify-content-between  px-2 py-3 shadow rounded-4">
           <Type />
           <Make />
           <Year />
           <Model />
           <Price />
-          <button className="btn btn-primary d-flex gap-2 justify-content-center align-items-center btn-2 w">
+          <button className="btn btn-primary d-flex gap-2 justify-content-center align-items-center   align-self-lg-center btn-2 px-3">
             <i className="bi bi-search"></i>Search
           </button>
         </div>
