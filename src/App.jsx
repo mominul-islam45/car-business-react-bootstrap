@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Filter from './Components/Filter';
 import Trending from './Components/Trending';
+import Best_CarMakes from './Components/Best_CarMakes';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <Filter/>
       <Trending/>
+      <Best_CarMakes/>
     </>
   )
 }

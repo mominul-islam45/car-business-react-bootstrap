@@ -134,3 +134,21 @@
         }
     }
 }
+
+
+/* Best car makes section */
+.brandContainer{
+    
+
+    & .brand{
+        filter: grayscale(1);
+        &:hover{
+            filter: grayscale(0);
+            cursor: pointer;
+        }
+
+        & .bestCarMake{
+            width: 40px;
+        }
+    }
+}
