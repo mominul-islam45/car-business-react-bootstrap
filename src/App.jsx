@@ -9,6 +9,7 @@ import Trending from './Components/Trending';
 import Best_CarMakes from './Components/Best_CarMakes';
 import RecentReviews from './Components/RecentReviews';
 import NearYou from './Components/NearYou';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Best_CarMakes/>
       <RecentReviews/>
       <NearYou/>
+      <Footer/>
     </>
   )
 }
