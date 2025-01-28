@@ -8,6 +8,7 @@ import Filter from './Components/Filter';
 import Trending from './Components/Trending';
 import Best_CarMakes from './Components/Best_CarMakes';
 import RecentReviews from './Components/RecentReviews';
+import NearYou from './Components/NearYou';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Trending/>
       <Best_CarMakes/>
       <RecentReviews/>
+      <NearYou/>
     </>
   )
 }
