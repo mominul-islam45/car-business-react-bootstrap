@@ -152,3 +152,9 @@
         }
     }
 }
+
+/* Recent reviews */
+.reviewer_img{
+    width: 42px;
+    border-radius: 20px;
+}

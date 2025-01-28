@@ -7,6 +7,7 @@ import Hero from './Components/Hero';
 import Filter from './Components/Filter';
 import Trending from './Components/Trending';
 import Best_CarMakes from './Components/Best_CarMakes';
+import RecentReviews from './Components/RecentReviews';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Filter/>
       <Trending/>
       <Best_CarMakes/>
+      <RecentReviews/>
     </>
   )
 }

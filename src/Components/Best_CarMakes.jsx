@@ -36,7 +36,7 @@ const brands = [
 function Best_CarMakes() {
   return (
     <>
-      <div className='container py-5'>
+      <div className='container py-5 px-lg-5'>
         <h2 className=' fs-2 fw-bold text-center mb-5'>Explore best selling car makes</h2>
         <div className='brandContainer row row-cols-2 row-cols-lg-3 row-gap-4'>
           {brands.map(({logo, name, priceFrom},i)=>(
