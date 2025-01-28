@@ -75,11 +75,11 @@ function Filter() {
     <>
       <div className=" container pb-5">
         <h3 className=" text-center text-md-start py-5 fw-bold fs-2">Which vehicles you are looking for? </h3>
-        <div className="filter d-flex flex-column flex-lg-row gap-4 gap-md-5 justify-content-between  px-2 py-3 shadow rounded-4">
-          <Type />
-          <Make />
-          <Year />
-          <Model />
+        <div className="filter d-flex flex-column flex-lg-row gap-4 gap-md-5 justify-content-between px-2 py-3 shadow rounded-4">
+          <Type /><div className="divider d-none d-lg-block align-self-center"></div>
+          <Make /><div className="divider d-none d-lg-block align-self-center"></div>
+          <Year /><div className="divider d-none d-lg-block align-self-center"></div>
+          <Model /><div className="divider d-none d-lg-block align-self-center"></div>
           <Price />
           <button className="btn btn-primary d-flex gap-2 justify-content-center align-items-center   align-self-lg-center btn-2 px-3">
             <i className="bi bi-search"></i>Search

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, Button} from 'react-bootstrap'
+import {Card, Button, CardHeader} from 'react-bootstrap'
 
 const trending = [
     {
@@ -39,7 +39,9 @@ function Trending() {
             <div className='d-flex flex-column flex-md-row justify-content-center align-items-stretch gap-5 gap-md-4'>
                 {trending.map(({img, title, miles, transmission, cylinder, price, seller})=>(
                     <Card className=' border-0 card'>
-                        <Card.Img src={img} className=' rounded-4'/>
+                        <div className='card-img-container'>
+                            <Card.Img src={img} className=' card-img'/>  
+                        </div>
                         <Card.Body>
                             <Card.Title className='fw-bold'>{title}</Card.Title>
                             <Card.Subtitle className=' text-muted mt-1'>{miles}</Card.Subtitle>

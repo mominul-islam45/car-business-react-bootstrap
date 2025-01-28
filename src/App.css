@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/* Navbar area */
 .nav-link{
     font-weight: 600 !important;
 }
@@ -17,6 +18,8 @@
    font-weight: 600;
    color: #9A9EA7;
 }
+
+/* Hero slide area */
 .slide p{
     color: #9A9EA7;
     font-weight: 400;
@@ -54,7 +57,7 @@
     }
 }
 
-
+/* Filter search area */
 .filter-label{
     color: #9A9EA7;
     padding-left: 10px;
@@ -65,21 +68,41 @@
     padding: 10px ;
     border-radius: 5px;
 }
-.filter .btn-2{
-    background-color: #7963F0 ;
-    border: none;
-    font-weight: 600;
+.filter{
+    & .divider{
+        border-left: 2px solid slateblue;
+        opacity: 0.3;
+        height: 3rem;
+    }
+
+    & .btn-2{
+        background-color: #7963F0 ;
+        border: none;
+        font-weight: 600;
 
     &:hover{
         background-color: #6650e7;
     }&:active{
         background-color: #7963F0 !important;
     }
-}
+}}
 
-
+/* Trending area */
 .card{
-    height: 400px !important;
+    
+
+    & .card-img-container{
+        overflow: hidden;
+        border-radius: 15px;
+    
+        & .card-img{
+            transition: 0.3s ease-out;
+        }
+
+        & .card-img:hover{
+            transform: scale(1.2);
+        }
+    }
 
     & .btn-1{
         background-color: #ece8ff ;
